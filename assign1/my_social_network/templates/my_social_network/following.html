@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+    <title>Following</title>
+  </head>
+  <body>
+    <h1>{{username}} is:</h1>
+    <div id="followed">
+      {% for guy in followedusers %}<!--Guy is generic and easier to understand-->
+      <li>Following: {{guy}}</li>
+      {% endfor %}
+    </div>
+  </body>
+</html>

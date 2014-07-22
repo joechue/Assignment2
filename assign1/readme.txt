@@ -1,0 +1,1 @@
+NOTE: Assignment 2 Task 2. <domain>/users/<user>/following is used instead of <domain>/<user>/following as this seems to make more sense.
